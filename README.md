@@ -1,6 +1,6 @@
 # Technologies
 - React + Vite
 - React Query
-- supabase
+- Supabase
 - Styled Components
 - Dark mode
