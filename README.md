@@ -1,5 +1,5 @@
-# The hotel's internal website
-## Offers a centralized dashboard where staff can effortlessly monitor hotel statistics and have real-time access to reservation details, allowing staff to track bookings, manage check-ins and check-outs with ease.
+# Airbnb Clone
+## The hotel's internal website offers a centralized dashboard where staff can effortlessly monitor hotel statistics and have real-time access to reservation details, allowing staff to track bookings, manage check-ins and check-outs with ease.
 
 
 ### Technologies
