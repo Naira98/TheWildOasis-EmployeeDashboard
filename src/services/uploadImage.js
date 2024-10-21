@@ -8,7 +8,6 @@ const uploadImage = async (image, storage) => {
     const imageName = `${Math.random()}-${image.name}`.replaceAll("/", "");
     imagePath = `${supabaseUrl}/storage/v1/object/public/${storage}/${imageName}`;
 
-    //Upload Image
     const { error: storageError } = await supabase.storage
       .from(storage)
       .upload(imageName, image);

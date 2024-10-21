@@ -9,7 +9,6 @@ import { useUpdateName } from "./useUpdateName";
 import { useUpdateAvatar } from "./useUpdateAvatar";
 
 function UpdateUserDataForm() {
-  // We don't need the loading state, and can immediately use the user data, because we know that it has already been loaded at this point
   const {
     user: {
       email,

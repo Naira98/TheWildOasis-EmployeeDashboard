@@ -14,12 +14,9 @@ export async function getCabins() {
 export async function createUpdateCabin(newCabin, id) {
   const imagePath = await uploadImage(newCabin.image, 'cabin-images');
 
-  // 1.Create/Update Cabin
   let query = supabase.from("cabins");
-  // A) Create
   if (!id) query = query.insert([{ ...newCabin, image: imagePath }]);
 
-  // B) Update
   if (id)
     query = query
       .update({ ...newCabin, image: imagePath })
