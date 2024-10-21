@@ -2,7 +2,6 @@ import { cloneElement, createContext, useContext, useState } from "react";
 import { createPortal } from "react-dom";
 import { CloseOutlined } from "@mui/icons-material";
 import styled from "styled-components";
-
 import useOutsideClick from "../hooks/useOutsideClick";
 
 const StyledModal = styled.div`
@@ -47,9 +46,6 @@ const Button = styled.button`
   & svg {
     width: 2.4rem;
     height: 2.4rem;
-    /* Sometimes we need both */
-    /* fill: var(--color-grey-500);
-    stroke: var(--color-grey-500); */
     color: var(--color-grey-500);
   }
 `;

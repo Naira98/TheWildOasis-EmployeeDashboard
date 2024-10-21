@@ -1,8 +1,6 @@
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
-
 import ButtonIcon from "./ButtonIcon";
-
 import { useDarkMode } from "../context/DarkModeContext";
 
 const DarkModeToggle = () => {

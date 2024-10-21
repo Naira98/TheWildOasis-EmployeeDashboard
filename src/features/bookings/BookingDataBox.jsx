@@ -4,10 +4,8 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import VillaOutlinedIcon from "@mui/icons-material/VillaOutlined";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
-
 import DataItem from "../../ui/DataItem";
 import { Flag } from "../../ui/Flag";
-
 import { formatDistanceFromNow, formatCurrency } from "../../utils/helpers";
 
 const StyledBookingDataBox = styled.section`

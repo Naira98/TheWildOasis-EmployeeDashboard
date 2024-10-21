@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-
 import ButtonIcon from "./ButtonIcon";
 import Logout from '../features/authentication/Logout'
 import DarkModeToggle from "./DarkModeToggle";

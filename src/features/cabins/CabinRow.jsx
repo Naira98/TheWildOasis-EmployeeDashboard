@@ -4,14 +4,12 @@ import {
   EditOutlined,
 } from "@mui/icons-material";
 import styled from "styled-components";
-
 import CreateCabinForm from "./CreateCabinForm";
 import { formatCurrency } from "../../utils/helpers";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
 import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";
-
 import { useDeleteCabin } from "./useDeleteCabin";
 import { useCreateCabin } from "./useCreateCabin";
 

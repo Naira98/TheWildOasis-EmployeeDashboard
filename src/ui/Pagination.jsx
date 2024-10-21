@@ -4,7 +4,6 @@ import {
 } from "@mui/icons-material";
 import { useSearchParams } from "react-router-dom";
 import styled from "styled-components";
-
 import { PAGE_SIZE } from "../utils/constances";
 
 const StyledPagination = styled.div`
