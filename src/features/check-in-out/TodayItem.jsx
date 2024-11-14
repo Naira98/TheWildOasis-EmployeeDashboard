@@ -30,17 +30,15 @@ const TodayItem = ({ activity }) => {
     <StyledTodayItem>
       {status === "unconfirmed" && <Tag type="green">Arriving</Tag>}
       {status === "checked-in" && <Tag type="blue">Departing</Tag>}
+      {guests.countryFlag && (
+        <Flag src={guests.countryFlag} alt={`Flag of ${guests.country}`} />
+      )}
 
-      <Flag src={guests.countryFlag} alt={`Flag of ${guests.country}`} />
       <Guest>{guests.fullName}</Guest>
       <div>{numNights} nights</div>
 
       {status === "unconfirmed" && (
-        <Button
-          $size="small"
-          as={Link}
-          to={`/checkin/${id}`}
-        >
+        <Button $size="small" as={Link} to={`/checkin/${id}`}>
           Check in
         </Button>
       )}
